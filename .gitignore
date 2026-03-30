@@ -1,0 +1,27 @@
+# Arquivo com chave API - NUNCA commitar!
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+nul
