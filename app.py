@@ -889,6 +889,14 @@ with st.sidebar:
 - WAV grande → otimiza → divide
         """)
 
+    st.markdown("""
+<div style="position: fixed; bottom: 16px; left: 0; width: 244px; text-align: center;">
+    <span style="font-size: 11px; color: #6B7280; letter-spacing: 0.03em;">
+        Rafael Barbosa · Ensino
+    </span>
+</div>
+""", unsafe_allow_html=True)
+
 # ── Tabs de upload ─────────────────────────────────────────────────────────────
 tab_pdfs, tab_audios = st.tabs(["📄  Materiais 2025 (PDFs)", "🎤  Áudios 2026"])
 
